@@ -34,6 +34,24 @@ nav a.active {
   border-bottom: 2px solid #F2F2F2;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  height: 55px;
+  width: 55px;
+  margin-right: 12px;
+}
+
+.logo-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+
 /* ---------- ABOUT PAGE CONTENT ---------- */
 .about-container {
   max-width: 900px;
