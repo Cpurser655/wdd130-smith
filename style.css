@@ -1,0 +1,94 @@
+/* ---------- ABOUTME ---------- */
+/* ---------- GENERAL ---------- */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+/* ---------- HEADER & NAV ---------- */
+header {
+  background: #1E90FF;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: Montserrat;
+}
+
+nav a.active {
+  border-bottom: 2px solid #F2F2F2;
+}
+
+/* ---------- ABOUT PAGE CONTENT ---------- */
+.about-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.about-container h1 {
+  font-family: Montserrat;
+  color: #1E90FF;
+  font-size: 2.3rem;
+}
+
+.intro {
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+}
+
+/* ---------- Question Buttons ---------- */
+.qa-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px 15px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-family: Montserrat;
+  background: #9ACD32;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.qa-btn:hover {
+  background: #85b42c;
+}
+
+.answer {
+  display: none;
+  background: #F2F2F2;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Reveal answer */
+.answer.show {
+  display: block;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #333333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
