@@ -1,4 +1,4 @@
-/* ---------- ABOUTME ---------- */
+
 /* ---------- GENERAL ---------- */
 body {
   margin: 0;
@@ -52,7 +52,41 @@ nav a.active {
   color: white;
 }
 
+/* ---------- HOME PAGE CONTENT ---------- */
+
+#welcome {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.home-container h1 {
+  font-family: Montserrat;
+  color: #1E90FF;
+  font-size: 2.3rem;
+}
+
+#pagetag {
+  background:#9ACD32;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#improve {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.words {
+  font-size: 1.1rem;
+  font-family: Montserrat;
+  color: white;
+}
+
 /* ---------- ABOUT PAGE CONTENT ---------- */
+
 .about-container {
   max-width: 900px;
   margin: 40px auto;
