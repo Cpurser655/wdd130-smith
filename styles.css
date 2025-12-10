@@ -67,10 +67,15 @@ nav a.active {
 }
 
 #pagetag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
   background:#9ACD32;
   width: 100%;
   padding: 10px;
   text-decoration: none;
+  Text-align: center;
 }
 
 #improve {
@@ -82,7 +87,14 @@ nav a.active {
 .words {
   font-size: 1.1rem;
   font-family: Montserrat;
-  color: black;
+  color: #333333;
+}
+
+.box {
+  padding: 10px;
+  width: 100px;
+  background: #333333;
+  text-align: center;
 }
 
 /* ---------- ABOUT PAGE CONTENT ---------- */
