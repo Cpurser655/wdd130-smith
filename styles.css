@@ -1,4 +1,4 @@
-/* ---------- ABOUTME ---------- */
+
 /* ---------- GENERAL ---------- */
 body {
   margin: 0;
@@ -52,7 +52,53 @@ nav a.active {
   color: white;
 }
 
+/* ---------- HOME PAGE CONTENT ---------- */
+
+#welcome {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.home-container h1 {
+  font-family: Montserrat;
+  color: #1E90FF;
+  font-size: 2.3rem;
+}
+
+#pagetag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
+  background:#9ACD32;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  Text-align: center;
+}
+
+#improve {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.words {
+  font-size: 1.1rem;
+  font-family: Montserrat;
+  color: #333333;
+}
+
+.box {
+  padding: 10px;
+  width: 100px;
+  background: #333333;
+  text-align: center;
+}
+
 /* ---------- ABOUT PAGE CONTENT ---------- */
+
 .about-container {
   max-width: 900px;
   margin: 40px auto;
