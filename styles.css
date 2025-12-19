@@ -1,158 +1,36 @@
-
-/* ---------- GENERAL ---------- */
-body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #FFFFFF;
-  color: #333333;
-}
-
-/* ---------- HEADER & NAV ---------- */
-header {
-  background: #1E90FF;
-  color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-family: Montserrat, sans-serif;
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-family: Montserrat;
-}
-
-nav a.active {
-  border-bottom: 2px solid #F2F2F2;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
-}
-
-.site-logo {
-  height: 55px;
-  width: 55px;
-  margin-right: 12px;
-}
-
-.logo-text {
-  font-family: Montserrat, sans-serif;
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: white;
-}
-
-/* ---------- HOME PAGE CONTENT ---------- */
-
-#welcome {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-.home-container h1 {
-  font-family: Montserrat;
-  color: #1E90FF;
-  font-size: 2.3rem;
-}
-
-#pagetag {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-content: space-between;
-  background:#9ACD32;
-  width: 100%;
-  padding: 10px;
-  text-decoration: none;
-  Text-align: center;
-}
-
-#improve {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-.words {
-  font-size: 1.1rem;
-  font-family: Montserrat;
-  color: #333333;
-}
-
-.box {
-  padding: 10px;
-  width: 100px;
-  background: #333333;
+.lessons-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
   text-align: center;
 }
 
-/* ---------- ABOUT PAGE CONTENT ---------- */
-
-.about-container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+/* Style the Form */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.about-container h1 {
-  font-family: Montserrat;
-  color: #1E90FF;
-  font-size: 2.3rem;
+.signup-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
 }
 
-.intro {
-  font-size: 1.15rem;
-  margin-bottom: 30px;
-}
-
-/* ---------- Question Buttons ---------- */
-.qa-btn {
-  width: 100%;
-  text-align: left;
-  padding: 12px 15px;
-  margin: 10px 0;
-  font-size: 1.1rem;
-  font-family: Montserrat;
-  background: #9ACD32;
+.signup-form button {
+  background-color: #9ACD32;
+  color: white;
   border: none;
-  color: white;
-  border-radius: 6px;
+  padding: 12px;
+  font-weight: bold;
   cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
 }
 
-.qa-btn:hover {
-  background: #85b42c;
-}
-
-.answer {
-  display: none;
-  background: #F2F2F2;
-  padding: 15px;
-  border-radius: 6px;
-  margin-bottom: 15px;
-}
-
-/* Reveal answer */
-.answer.show {
-  display: block;
-}
-
-/* ---------- FOOTER ---------- */
-footer {
-  background: #333333;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 50px;
+.signup-form button:hover {
+  background-color: #85b42c;
 }
