@@ -3,62 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Lessons - Baseline Tennis</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <h1>Basline Tennis</h1>
+        <div class="logo-text">Baseline Tennis</div>
         <nav>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="lessons.html">Lessons/Sip</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="lessons.html" class="active">Lessons</a></li>
+            </ul>
         </nav>
-        <a id="logo" href="index.html" src="" alt="logo"></a>
     </header>
-    <main>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lessons</title>
-</head>  
-<body>  
-    <p>
-        <a href="index.html">Home</a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="aboutm.html">About Me</a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="lessons.html">Lessons</a>
-        </p>
-    <div>
-        <h1>Lessons</h1>
-        <p>I offer tennis lessons for all skill lessons, focusing on improving your style of play.</p>
 
-        <form action="#" method="POST">
-            <p>
-                <input type="text" id="name" name="name" placeholder="Name" size="40">
-            </p>
-            <p>
-                <input type="email" id="email" name="email" placeholder="Email" size="40">
-            </p>
-            <p>
-                <input type="text" id="skill-level" name="skill-level" placeholder="Skill Level" size="40">
-            </p>
-            <p>
-                <button type="submit" style="width: 330px; padding: 10px;">Sign Up</button>
-            </p>
+    <main class="lessons-container">
+        <h1>Lessons</h1>
+        <p>I offer tennis lessons for all skill levels, focusing on improving your style of play.</p>
+        
+        <form action="#" method="POST" class="signup-form">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="skill-level" name="skill-level" placeholder="Skill Level">
+            <button type="submit">Sign Up</button>
         </form>
-    </div>
-</body>
-</html>
     </main>
+
     <footer>
-        <p>Basline Tennis &copy; 2025 - Benjamin Smith</p>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-        <li><a href="lessons.html">Lessons/Sip</a></li>
+        <p>Baseline Tennis &copy; 2025 - Benjamin Smith</p>
+        <nav class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="lessons.html">Lessons</a>
+        </nav>
     </footer>
 </body>
 </html>
